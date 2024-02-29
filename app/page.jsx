@@ -11,7 +11,7 @@ export default function Home() {
           <Link href={"/auth/register"}>
             <Button variant="secondary">Registrer ny bruker</Button>
           </Link>
-          <Link href={"auth/login"}>
+          <Link href={"/auth/login"}>
             <Button variant="secondary">Logg inn</Button>
           </Link>
       </div>

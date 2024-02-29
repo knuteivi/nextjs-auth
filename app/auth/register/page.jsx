@@ -95,7 +95,7 @@ export default function Register() {
                         <div className='flex flex-col space-y-1.5 w-[400px]'>
                                 <FormField control={form.control} name="name" render={({field}) => (
                                     <FormItem>
-                                        <FormLabel>Email</FormLabel>
+                                        <FormLabel>Navn</FormLabel>
                                         <FormControl>
                                             <Input 
                                                 {...field}

@@ -1,7 +1,7 @@
 "use server";
 
 import { RegisterSchema } from "@/schemas";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import { db } from "@/lib/db";
 
 export const register = async (values) => {

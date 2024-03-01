@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import fuckyou from "fuckyou";
 
 export default function Home() {
   //const user = await db.user.getUnique()
